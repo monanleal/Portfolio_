@@ -180,12 +180,13 @@ header h1 {
         width:46%;
         left:470px;
     }
+
 }
 
 @media screen and (max-width:1060px) {
     #cor #textoSobre {
         width:46%;
-        left:440px;
+        left:460px;
     }
 
     #cor #textoSobre h3 {
@@ -196,11 +197,32 @@ header h1 {
         position:relative;
         top:273px;
         left:-6%;
+    }
 
+    body #cor {
+        height:2640px;
     }
 }
 
-@media screen and (max-width:995px) {
+@media screen and (max-width:1020px) {
+    #cor #textoSobre {
+        width:46%;
+        left:420px;
+    }
+
+    #cor #sobreMim button {
+        position:relative;
+        top:273px;
+        left:-5%;
+    }
+
+    #cor #sobreMim {
+        height:580px;
+    }
+
+}
+
+@media screen and (max-width:948px) {
     #cor #textoSobre {
         width:46%;
         left:400px;
@@ -212,13 +234,13 @@ header h1 {
 
     #cor #sobreMim button {
         position:relative;
-        top:243px;
-        left:-68%;
+        top:245px;
+        left:-67%;
 
     }
 }
 
-@media screen and (max-width:975px) {
+@media screen and (max-width:900px) {
     #cor #textoSobre h3 {
         left:-100px;
     }
@@ -230,7 +252,7 @@ header h1 {
     }
 
     body #cor {
-        height: 3000px;
+        height: 3150px;
     }
 
     body #sobreMim {
@@ -374,18 +396,24 @@ header h1 {
 }
 
 @media screen and (max-width:618px) {
-    #cor #textoSobre button {
-        top:83px;
-        left:-54%;
+    #cor #sobreMim button {
+        top:108px;
+        left:100px;
         padding:10px 12px;
     }
 
     #cor #textoSobre h3 {
         top:70px;
     }
+
+    #cor #textoSobre h2 {
+        position:relative;
+        left:-200px;
+        
+    }
 }
 
-@media screen and (max-width:568px){
+@media screen and (max-width:580px){
     #sobreMim #textoSobre {
         width:80%;
         position:relative;
@@ -419,18 +447,18 @@ header h1 {
         font-size:20px;
     }
 
-    #cor #textoSobre button {
-        top:83px;
-        left:-77%;
+    #cor #sobreMim button {
+        top:80px;
         padding:10px 12px;
+        left:-200px;
     }
 
     #cor #sobreMim {
-        height:550px;
+        height:635px;
     }
 
     body #cor {
-        height: 3300px;
+        height: 3510px;
     }
 
     body #sobreMim {
@@ -458,9 +486,12 @@ header h1 {
 
     body .redesSociaisRodape {
         position:relative;
-        bottom:30px;
+        bottom:20px;
     }
 
+    body #email {
+        margin-top:60px;
+    }
 }
 
 #minhaFoto:hover {
@@ -520,12 +551,9 @@ header h1 {
 }
 
 #areaInicial button:hover {
-    animation-name: botao;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction:alternate;
+    scale:1.2;
     background:#005dae;
+    transition:0.5s;
 }
 
 @keyframes botao {
@@ -544,7 +572,7 @@ header h1 {
 
 #cor {
     position:relative;
-    height:2580px;
+    height:2600px;
     top:200px;
     background:linear-gradient(to top, #00294d, #000e1a);
     box-shadow:0 0 40px #0274d86f;
@@ -557,11 +585,11 @@ section #sobre {
 
 #sobreMim {
     width:98%;
-    height:500px;
+    height:550px;
     background:rgba(0, 0, 0, 0.555);
     position:relative;
     top:140px;
-    border-radius:10px; 
+    border-radius:20px; 
 }
 
 #textoSobre {
@@ -896,25 +924,25 @@ footer a:hover {
 .borda {
     border-bottom:2px solid #0275d8;
     position:relative;
-    top:20px;
+    top:7px;
 }
 
 .esconder {
     opacity:0;
-    transition:all 2s;
-    filter: blur(15px);
+    transition:all 1.8s;
+    filter: blur(10px);
     transform:translateX(-100%);
 }
 
 .mostrar {
     opacity:1;
-    transition:all 2s;
+    transition:all 1.8s;
     filter: blur(0);
     transform:translateX(0);
 }
 
 ::-webkit-scrollbar {
-    width:11px;
+    width:10px;
     background:black;
 }
 
