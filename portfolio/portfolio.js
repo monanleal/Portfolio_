@@ -19,3 +19,9 @@ const myObserver = new IntersectionObserver ((entries) => {
 const elements = document.querySelectorAll('.esconder')
 
 elements.forEach((element) => myObserver.observe(element))
+
+window.sr = ScrollReveal({ reset: true });
+
+sr.reveal('#areaInicial', {duration: 2000 });
+
+sr.reveal('#habilidades', {duration: 3000 });

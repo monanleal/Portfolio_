@@ -96,403 +96,7 @@ header h1 {
     #menu {display: block};
 }
 
-@media screen and (max-width:1380px){
 
-    #sobreMim {
-        font-size:10pt;
-    }
-
-    #cor #sobreMim h2 {
-    position:relative;
-    top:170px;
-    display:inline;
-    float:right;
-    position:relative;
-    right:45%;
-    font-size:32px;
-    }
-
-    #cor #sobreMim p {
-        position:relative;
-        top:190px;
-        display:inline-block;
-        float:right;
-        left:-20px;
-        line-height:23px;
-    }
-
-    #cor #sobreMim h3 {
-        position:relative;
-        top:230px;
-        display:inline;
-        float:right;
-        position:relative;
-        right:49%;
-        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight:400;
-        font-size:22px;
-    }
-
-    #cor #sobreMim button {
-        padding:10px 12px;
-        border:1px solid #0275d8;
-        border-radius:7px;
-        background:#0275d8;
-        font-weight:bold;
-        display:block;
-        margin: 0 auto; 
-        cursor:pointer;
-        color:white;
-        position:relative;
-        top:230px;
-        left:38%;
-        display:inline;
-        float:right;
-    }
-}
-
-@media screen and (max-width:1240px) {
-    #cor #textoSobre {
-        width:45%;
-        left:520px;
-    }
-}
-
-@media screen and (max-width:1200px) {
-    #cor #textoSobre {
-        width:44%;
-        left:500px;
-    }
-
-    #cor #sobreMim button {
-        position:relative;
-        top:230px;
-        left:48%;
-    }
-
-    #cor #sobreMim img {
-        margin-top:20px;
-    }
-}
-
-@media screen and (max-width:1120px) {
-    #cor #textoSobre {
-        width:46%;
-        left:470px;
-    }
-
-}
-
-@media screen and (max-width:1060px) {
-    #cor #textoSobre {
-        width:46%;
-        left:460px;
-    }
-
-    #cor #textoSobre h3 {
-        left:-160px;
-    }
-
-    #cor #sobreMim button {
-        position:relative;
-        top:273px;
-        left:-6%;
-    }
-
-    body #cor {
-        height:2640px;
-    }
-}
-
-@media screen and (max-width:1020px) {
-    #cor #textoSobre {
-        width:46%;
-        left:420px;
-    }
-
-    #cor #sobreMim button {
-        position:relative;
-        top:273px;
-        left:-5%;
-    }
-
-    #cor #sobreMim {
-        height:580px;
-    }
-
-}
-
-@media screen and (max-width:948px) {
-    #cor #textoSobre {
-        width:46%;
-        left:400px;
-    }
-
-    #cor #textoSobre h3 {
-        left:-150px;
-    }
-
-    #cor #sobreMim button {
-        position:relative;
-        top:245px;
-        left:-67%;
-
-    }
-}
-
-@media screen and (max-width:900px) {
-    #cor #textoSobre h3 {
-        left:-100px;
-    }
-
-    #cor #sobreMim button {
-        position:relative;
-        top:243px;
-        left:-56%;
-    }
-
-    body #cor {
-        height: 3150px;
-    }
-
-    body #sobreMim {
-        box-shadow: 0 0 40px #0274d86f;
-    }
-
-    body #projetos {
-        box-shadow: 0 0 0 #0274d81a;
-    }
-
-    body .projetos {
-        width:240px;
-    }
-
-    body #habilidades {
-        margin-top:700px;
-        width:420px;
-        box-shadow: 0 0 40px #0274d86f;
-    }
-
-    body #habilidades h2 {
-        font-size: 32pt;
-        font-weight: 500;
-    }
-}
-
-@media screen and (max-width:875px) {
-     #sobreMim img{
-       visibility: hidden;
-       position:absolute;
-    }
-
-    #cor #textoSobre {
-        width:75%;
-        left:110px;
-    }
-
-    #cor #textoSobre h2 {
-        left:-200px;
-        top:200px;
-    }
-
-    #cor #textoSobre p {
-        top:233px;
-    }
-    
-    #cor #textoSobre h3 {
-        left:-270px;
-        top:280px;
-    }
-
-    #cor #sobreMim button {
-        position:relative;
-        top:283px;
-        left:27%;
-    }
-}
-
-@media screen and (max-width:808px) {
-    #cor #textoSobre h3 {
-        left:-240px;
-        top:280px;
-    }
-
-    #cor #sobreMim button {
-        position:relative;
-        top:283px;
-        left:33%;
-    
-    }
-}
-
-@media screen and (max-width:768px){
-    #imgH {
-        visibility: visible;
-        float:right;
-    }
-
-    #menu {
-        visibility:
-        hidden;
-    }
-
-    #menu ul {
-        flex-direction: column;
-        display: flex;
-        margin-top:6px;
-        position:relative;
-        left:20px;
-    }
-
-    #sobreMim {
-        font-size:10pt;
-    }
-
-        #sobreMim img {
-        visibility:hidden;
-        position:absolute;
-    }
-
-    #cor #textoSobre {
-        top:-110px;
-        left:140px;
-    }
-
-    #cor #textoSobre h2 {
-    position:relative;
-    top:-10px;
-    display:inline;
-    float:right;
-    position:relative;
-    left:-230px;
-    font-size:32px;
-    }
-
-    #cor #sobreMim p {
-        position:relative;
-        top:28px;
-        display:inline-block;
-        float:right;
-        left:-60px;
-        line-height:23px;
-    }
-
-    #cor #textoSobre h3 {
-        position:relative;
-        top:80px;
-        display:inline;
-        float:right;
-        position:relative;
-        left:-38%;
-        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight:400;
-        font-size:22px;
-    }
-
-    #cor #textoSobre button {
-        top:123px;
-        left:2%;
-    }
-}
-
-@media screen and (max-width:618px) {
-    #cor #sobreMim button {
-        top:108px;
-        left:100px;
-        padding:10px 12px;
-    }
-
-    #cor #textoSobre h3 {
-        top:70px;
-    }
-
-    #cor #textoSobre h2 {
-        position:relative;
-        left:-200px;
-        
-    }
-}
-
-@media screen and (max-width:580px){
-    #sobreMim #textoSobre {
-        width:80%;
-        position:relative;
-        top:-84px;
-        font-size:11pt;
-        display:inline-block;
-        float:right;
-        left:30px;
-        line-height:24px;
-    }
-
-    #sobreMim #textoSobre h2 {
-        position:relative;
-        top:-6px;
-        display:inline;
-        float:right;
-        position:relative;
-        right:50%;
-        font-size:32px;
-    }
-
-    #cor #textoSobre h3 {
-        position:relative;
-        top:66px;
-        display:inline;
-        float:right;
-        position:relative;
-        left:-49%;
-        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight:400;
-        font-size:20px;
-    }
-
-    #cor #sobreMim button {
-        top:80px;
-        padding:10px 12px;
-        left:-200px;
-    }
-
-    #cor #sobreMim {
-        height:635px;
-    }
-
-    body #cor {
-        height: 3510px;
-    }
-
-    body #sobreMim {
-        box-shadow: 0 0 40px #0274d86f;
-    }
-
-    body #projetos {
-        box-shadow: 0 0 0 #0274d81a;
-    }
-
-    body .projetos {
-        width:240px;
-    }
-
-    body #habilidades {
-        margin-top:1000px;
-        width:310px;
-        
-    }
-
-    body #habilidades h2 {
-        font-size: 32pt;
-        font-weight: 500;
-    }
-
-    body .redesSociaisRodape {
-        position:relative;
-        bottom:20px;
-    }
-
-    body #email {
-        margin-top:60px;
-    }
-}
 
 #minhaFoto:hover {
     scale: 1.1;
@@ -584,28 +188,44 @@ section #sobre {
 }
 
 #sobreMim {
-    width:98%;
-    height:550px;
-    background:rgba(0, 0, 0, 0.555);
+    width:91%;
+    margin:0 auto;
+    height:525px;
+    /* background:rgba(1, 16, 44, 0.089); */
+    background:#000e1a;
     position:relative;
     top:140px;
-    border-radius:20px; 
+    border-radius:15px; 
+    box-shadow:0 0px 40px #0274d82c;
+}
+
+.redesSociaisSobre {
+    position: absolute;
+    margin:119px 0 0 310px;
+}
+
+.redesSociaisSobre .redesSociais img {
+    padding:0 4px;
+}
+
+#areaContato {
+    width:500px;
 }
 
 #textoSobre {
-    width:44%;
+    width:48%;
     position:relative;
-    bottom:350px;
-    left:550px;
+    top:-380px;
+    left:490px;
+    color:rgba(255, 255, 255, 0.616);
+    height:500px;
 }
 
 #sobreMim h2 {
     position:relative;
-    top:130px;
     display:inline;
-    float:right;
-    position:relative;
-    right:33%;
+    left:40px;
+    top:142px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight:400;
     font-size:36px;
@@ -613,23 +233,21 @@ section #sobre {
 
 #sobreMim p {
     position:relative;
-    top:170px;
+    top:180px;
     display:inline-block;
-    float:right;
     left:40px;
-    line-height:23px;
+    line-height:26px;
+    letter-spacing:1px;
+    padding-bottom:6px;
 }
 
 #sobreMim h3 {
     position:relative;
     top:212px;
     display:inline;
-    float:right;
-    position:relative;
-    right:45%;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    right:-41px;
     font-weight:400;
-    font-size:22px;
+    font-size:20px;
 }
 
 #sobreMim button {
@@ -639,12 +257,11 @@ section #sobre {
     background:#0275d8;
     font-weight:bold;
     display:block;
-    margin: 0 auto; 
+    margin:0 130px 0 0; 
     cursor:pointer;
     color:white;
     position:relative;
-    top:210px;
-    left:29%;
+    top:209px;
     display:inline;
     float:right;
 
@@ -854,10 +471,10 @@ section #sobre {
 
 @keyframes wordpress {
     0% {
-        width:50%;
+        width:0%;
     }
     100% {
-        width:90%;
+        width:50%;
     }
 }
 
@@ -900,7 +517,6 @@ footer a:hover {
 
 #rodape {
     justify-content:space-between;
-    
 }   
 
 .flex {
