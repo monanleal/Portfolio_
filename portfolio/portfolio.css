@@ -78,8 +78,6 @@ header h1 {
     width:100%;
 }
 
-
-
 #menu li {
     list-style:none;
     display:inline-block;
@@ -90,13 +88,6 @@ header h1 {
 header h1 {
     display:inline;
 }
-
-@media screen and (max-width:1580px){
-    #imgH {visibility: hidden};
-    #menu {display: block};
-}
-
-
 
 #minhaFoto:hover {
     scale: 1.1;
@@ -195,7 +186,7 @@ section #sobre {
     background:#000e1a;
     position:relative;
     top:140px;
-    border-radius:15px; 
+    border-radius:20px; 
     box-shadow:0 0px 40px #0274d82c;
 }
 
@@ -256,14 +247,13 @@ section #sobre {
     border-radius:7px;
     background:#0275d8;
     font-weight:bold;
-    display:block;
-    margin:0 130px 0 0; 
+    display:block; 
     cursor:pointer;
     color:white;
     position:relative;
+    left:60px;
     top:209px;
-    display:inline;
-    float:right;
+    display:inline-block;
 
     animation-name: botao;
     animation-duration: 0.5s;
@@ -568,4 +558,66 @@ footer a:hover {
 
 #espaco {
     margin-top:50px;
+}
+
+
+@media screen and (max-width:1580px){
+    #imgH {visibility: hidden};
+    #menu {display: block};
+}
+
+@media screen and (max-width:1475px){
+    #sobreMim {
+    height:545px;
+    }
+}
+
+@media screen and (max-width:1400px){
+    #textoSobre {
+    top:-370px;
+    left:465px;
+    }
+
+    .redesSociaisSobre {
+        left:-40px;
+    }
+}
+
+@media screen and (max-width:1320px) {
+    body #imgSobre {
+        width:60%;
+        top:190px;
+    }
+    
+    #sobreMim {
+        height:470px;
+    }
+    
+    #textoSobre {
+        top:-360px;
+        left:430px;
+    }
+    
+    #textoSobre p {
+    font-size:11pt;
+    line-height:23px;
+    }
+
+    #textoSobre h2 {
+    font-size:22pt;
+    line-height:23px;
+    }
+
+    #textoSobre h3 {
+    font-size:13pt;
+    }
+
+    #textoSobre button {
+    padding:7px 9px;
+    }
+
+    .redesSociaisSobre .redesSociais {
+        width:40px;
+        height:40px;
+    }
 }
