@@ -584,13 +584,8 @@ footer a:hover {
 }
 
 @media screen and (max-width:1320px) {
-    body #imgSobre {
-        width:60%;
-        top:190px;
-    }
-    
     #sobreMim {
-        height:470px;
+    height:470px;
     }
     
     #textoSobre {
@@ -619,5 +614,236 @@ footer a:hover {
     .redesSociaisSobre .redesSociais {
         width:40px;
         height:40px;
+    }
+
+    #imgSobre {
+        position:relative;
+        top:-30px;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    body #cor {
+        height:2850px;
+    } 
+    #sobreMim {
+        width:64%;
+        height:750px;
+        top:140px;
+    }
+
+    #imgSobre {
+        width:1000px;
+        position:relative;
+        top:-90px;
+        left:18px;
+    }
+
+    #textoSobre {
+        width:80%;
+        position:relative;
+        top:-40px;
+        left:37px;
+    }
+
+    .redesSociaisSobre {
+        display:flex;
+        flex-direction: column;
+        left:210px;
+        bottom:405px;
+    }
+
+    footer {
+        height:158px;
+        margin-top:139px;
+    }   
+}
+
+@media screen and (max-width:1205px) {
+    #sobreMim {
+        height:770px;
+    }
+
+    .redesSociaisSobre {
+        left:180px;
+        bottom:405px;
+    }
+
+}
+
+@media screen and (max-width:1167px) {
+    #sobreMim {
+        height:790px;
+    }
+}
+
+@media screen and (max-width:1140px) {
+    .redesSociaisSobre {
+        left:160px;
+        bottom:405px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    #imgSobre {
+        left:10px;
+    }
+
+    #textoSobre {
+        left:25px;
+    }
+
+    .redesSociaisSobre {
+        left:140px;
+        bottom:405px;
+    }
+}
+
+@media screen and (max-width:1014px) {
+    #sobreMim {
+        width:80%;
+        height:750px;
+    }
+
+    .redesSociaisSobre {
+        left:232px;
+    }
+
+    .projetos {
+        width:200px;
+        height:300px;
+    }
+}
+
+@media screen and (max-width:967px) {
+    #sobreMim {
+        width:80%;
+        height:770px;
+    }
+
+    .redesSociaisSobre {
+        left:194px;
+    }
+}
+
+@media screen and (max-width:932px) {
+    #sobreMim {
+        width:80%;
+        height:790px;
+    }
+}
+
+@media screen and (max-width:903px) {
+    .redesSociaisSobre {
+        left:120px;
+    }
+}
+
+@media screen and (max-width:801px) {
+    #projetos {
+        height:1040px;
+    }
+
+    body #cor {
+        height:3165px;
+    } 
+
+    #sobreMim {
+        width:88%;
+        height:790px;
+    }
+}
+
+@media screen and (max-width:725px) {
+    #sobreMim {
+        height:810px;
+        width: 90%;
+    }
+
+    #imgSobre {
+        left:-10px;
+    }
+
+    #textoSobre {
+        left:10px;
+    }
+
+    .redesSociaisSobre {
+        left:110px;
+    }
+}
+
+@media screen and (max-width:684px) {
+    #sobreMim {
+        height:821px;
+        width: 490px;
+    }
+
+    #imgSobre {
+        left:20px;
+        width:920px;
+    }
+
+    #textoSobre {
+        left:10px;
+    }
+
+    .redesSociaisSobre {
+        left:-40px;
+        top:-7px;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:584px) {
+    #sobreMim {
+        width: 420px;
+    }
+
+    #imgSobre {
+        left:-14px;
+        top:-100px;
+    }
+
+    #textoSobre {
+        left:-10px;
+        top:-60px;
+        width:87%;
+    }
+
+    .redesSociaisSobre {
+        left:-80px;
+    }
+}
+
+@media screen and (max-width:495px) {
+    #sobreMim {
+        width: 380;
+        right:30px;
+    }
+
+    #sobreMim h2 {
+        font-size:7pt;
+    }
+
+    #imgSobre {
+        left:-52px;
+        top:-100px;
+        width:840px;
+    }
+
+    #textoSobre {
+        left:-10px;
+        top:-60px;
+        width:87%;
+    }
+
+    .redesSociaisSobre .redesSociais {
+        width:35px;
+        height:35px;
+    }
+
+    .redesSociaisSobre {
+        left:-90px;
     }
 }
