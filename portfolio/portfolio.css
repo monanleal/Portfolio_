@@ -36,7 +36,7 @@ header h1 {
     position:relative;
 }
 
-#imgH {
+#imgMenu {
     background:#0275d8;
     border-radius:4px;
     align-items:center;
@@ -44,10 +44,10 @@ header h1 {
     display:inline-block;
     width:30px;
     padding:3px;
-    
+    display:none;
 }
 
-#imgH:hover {
+#imgMenu:hover {
     background:#fff;
     transition: 0.6s;
 }
@@ -87,6 +87,13 @@ header h1 {
 
 header h1 {
     display:inline;
+}
+
+#minhaFoto {
+    width:360px;
+    border-radius:17px;
+    margin:150px auto 0 auto;
+    display:block;
 }
 
 #minhaFoto:hover {
@@ -139,10 +146,9 @@ header h1 {
     background:#0275d8;
     font-weight:bold;
     display:block;
-    margin: 0 auto; 
+    margin: 17px auto; 
     cursor:pointer;
     color:white;
-
 }
 
 #areaInicial button:hover {
@@ -752,6 +758,27 @@ footer a:hover {
         width:88%;
         height:790px;
     }
+
+    #imgMenu {
+        background:#0275d8;
+        border-radius:4px;
+        align-items:center;
+        cursor:pointer;
+        display:inline-block;
+        width:30px;
+        padding:3px;
+        position:relative;
+        float:right;
+    }
+
+    #menu {
+        visibility:hidden;
+    }
+
+    #menu li {
+        display:block;
+        flex-direction:column;
+    }
 }
 
 @media screen and (max-width:725px) {
@@ -816,20 +843,62 @@ footer a:hover {
     }
 }
 
+@media screen and (max-width:536px) {
+    #projetos {
+        height:1420px;
+    }
+
+    body #cor {
+        position:relative;
+        height:3640px;
+    }
+
+    #habilidades {
+        width:320px;
+    }
+
+    #habilidades h2{
+        font-size:45px;
+    }
+
+    body .redesSociaisRodape {
+        margin:0 0 0 59px;
+    }
+
+    .redesSociaisRodape .redesSociais {
+        width:36px;
+        height:36px;
+    }
+
+    footer {
+        margin-top:222px;
+    }
+}
+
 @media screen and (max-width:495px) {
+    #minhaFoto {
+        width:90%;
+    }
+
     #sobreMim {
-        width: 380;
-        right:30px;
+        width: 110%;
+        margin:-5%;
+        height: 122cqmax;
+    }
+
+    #sobreMim button {
+        top:224px;
+        left:45px;
     }
 
     #sobreMim h2 {
-        font-size:7pt;
+        font-size:21pt;
     }
 
     #imgSobre {
         left:-52px;
-        top:-100px;
-        width:840px;
+        top:-120px;
+        width:270%;
     }
 
     #textoSobre {
@@ -845,5 +914,35 @@ footer a:hover {
 
     .redesSociaisSobre {
         left:-90px;
+    }
+
+    #projetos {
+        height:1420px;
+    }
+
+    body #cor {
+        position:relative;
+        height:3640px;
+    }
+
+    #habilidades {
+        width:250px;
+    }
+
+    #habilidades h2{
+        font-size:45px;
+    }
+
+    body .redesSociaisRodape {
+        margin:0 0 0 59px;
+    }
+
+    .redesSociaisRodape .redesSociais {
+        width:36px;
+        height:36px;
+    }
+
+    footer {
+        margin-top:162px;
     }
 }
