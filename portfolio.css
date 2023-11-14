@@ -806,6 +806,10 @@ footer a:hover {
     footer {
         margin-top:133px;
     }
+
+    body #cor {
+        top:180px;
+    }
 }
 
 @media screen and (max-width:684px) {
@@ -900,7 +904,7 @@ footer a:hover {
     #sobreMim {
         width: 110%;
         margin:-5%;
-        height: 122cqmax;
+        height: 900px;
     }
 
     #sobreMim button {
