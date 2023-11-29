@@ -860,7 +860,14 @@ footer a:hover {
     .redesSociaisSobre {
         left:-80px;
     }
+
+    #areaInicial h2 {
+        padding:2px 0px;
+        width:276px;
+    }
 }
+
+
 
 @media screen and (max-width:536px) {
     #projetos {
