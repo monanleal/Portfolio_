@@ -897,6 +897,14 @@ footer a:hover {
 }
 
 @media screen and (max-width:495px) {
+
+    body {
+        background-image: url(fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
+        background-attachment:fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
     #minhaFoto {
         width:90%;
     }
