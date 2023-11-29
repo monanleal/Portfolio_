@@ -9,8 +9,8 @@ html {
 
 body {
     background-image: url(fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
-    background-repeat: repeat-x;
     background-attachment:fixed;
+    background-size: cover;
     color:white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -836,6 +836,8 @@ footer a:hover {
     #habilidades h2{
         width:400px;
         font-size:40px;
+        position:relative;
+        left:-17px;
     }
 }
 
@@ -875,7 +877,9 @@ footer a:hover {
     }
 
     #habilidades h2{
-        font-size:45px;
+        font-size:40px;
+        position:relative;
+        left:-40px;
     }
 
     body .redesSociaisRodape {
