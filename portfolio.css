@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-image: url(fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
+    background: #00294d url(fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
     background-attachment:fixed;
     background-size: cover;
     color:white;
@@ -899,7 +899,7 @@ footer a:hover {
 @media screen and (max-width:495px) {
 
     body {
-        background-image: url(fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg);
+        background:  #00294d url(fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner-celular.jpg);
         background-attachment:fixed;
         background-position: center;
         background-size: cover;
@@ -952,6 +952,7 @@ footer a:hover {
     body #cor {
         position:relative;
         height:3640px;
+        top:180px;
     }
 
     #habilidades {
