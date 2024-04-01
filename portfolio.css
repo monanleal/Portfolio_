@@ -347,10 +347,10 @@ header h1 {
 
 .caixas2 svg {
     display:flex;
-    position:relative;
-    margin:0 auto;
     justify-content:center;
     align-content:center;
+    position:relative;
+    margin:0 auto;
     padding-right:20px;
     color:#0275d8;
 }
@@ -388,12 +388,12 @@ header h1 {
     position:relative;
     top:187px;
     left:290px;
+    padding-left:6px;
 }
 
 #textoSobre {
     width:48%;
     position:relative;
-    top:-480px;
     left:620px;
     color:rgba(255, 255, 255, 0.616);
     height:500px;
@@ -845,12 +845,27 @@ footer a:hover {
 }
 
 @media screen and (max-width:1320px) {
+    body #cor {
+        height:4515px;
+    } 
+
     .caixaP1, .caixaP2 {
         position:relative;
-        margin:0 auto;
+        
         width:60%;
         display: block;
     }
+
+    #clientePrecisa .caixas {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content:center;
+    }
+
+    .interface #atrairCliente {
+    height:1280px;
+}
 
     #sobreMim {
     height:500px;
@@ -893,18 +908,40 @@ footer a:hover {
 
 @media screen and (max-width:1250px) {
     body #cor {
-        height:2850px;
+        height:5015px;
     } 
+
+    #clientePrecisa2 .caixas2 {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content:center;
+    }
+
+    .interface #atrairCliente {
+        height:1750px;
+    }
 
     #imgSobre {
         display:none;
     }
 
+    #textoSobre .redesSociaisSobre {
+        display: flex;
+        flex-direction: row;
+        left:400px;
+    }
+
+    #textoSobre p {
+        font-size:17px;
+    }
+
     #textoSobre {
-        width:80%;
+        width:65%;
         position:relative;
-        top:-40px;
-        left:37px;
+        display: block;
+        top: -154px;
+        left:-200px;
         margin:0 auto;
     }
 
@@ -922,10 +959,6 @@ footer a:hover {
 }
 
 @media screen and (max-width:1205px) {
-    #sobreMim {
-        height:770px;
-    }
-
     .redesSociaisSobre {
         left:180px;
         bottom:405px;
@@ -933,13 +966,29 @@ footer a:hover {
 
 }
 
-@media screen and (max-width:1167px) {
-    #sobreMim {
-        height:790px;
+@media screen and (max-width:1153px) {
+    body #cor {
+        height:5070px;
+    } 
+
+    .interface #atrairCliente {
+        height:1810px;
+    }
+
+    .direitosAutorais h4 {
+        float:left;
+        position:relative;
+        top:-40px;
+        right:205px;
     }
 }
 
 @media screen and (max-width:1140px) {
+
+    body #cor {
+        height:4800px;
+    } 
+
     .redesSociaisSobre {
         left:160px;
         bottom:405px;
@@ -947,12 +996,9 @@ footer a:hover {
 }
 
 @media screen and (max-width:1080px) {
-    #imgSobre {
-        left:10px;
-    }
 
-    #textoSobre {
-        left:25px;
+    #textoSobre p {
+        left:-20px;
     }
 
     .redesSociaisSobre {
@@ -961,27 +1007,48 @@ footer a:hover {
     }
 }
 
-@media screen and (max-width:1014px) {
-    #sobreMim {
-        width:80%;
-        height:750px;
+@media screen and (max-width:1036px) {
+    body #cor {
+        height:5020px;
+    } 
+    
+    .interface #atrairCliente {
+        height:1880px;
     }
 
-    .redesSociaisSobre {
-        left:232px;
+    #textoSobre {
+        width:50%;
+        top:-180px;
+        left:-250px;
+    }
+
+    #textoSobre h2 {
+        top:150px;
+        left:-17px;
+    }
+
+    #projetos {
+        height:1150px;
     }
 
     .projetos {
         width:200px;
         height:300px;
     }
+
+    footer .redesSociais {
+        position:relative;
+        right:100px;
+        display:inline;
+    }
+
+    #rodape .redesSociaisRodape {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
-@media screen and (max-width:967px) {
-    #sobreMim {
-        width:80%;
-        height:770px;
-    }
+@media screen and (max-width:968px) {
 
     .redesSociaisSobre {
         left:194px;
@@ -989,30 +1056,55 @@ footer a:hover {
 }
 
 @media screen and (max-width:932px) {
-    #sobreMim {
-        width:80%;
-        height:790px;
+    .interface #atrairCliente {
+        height:1900px;
     }
 }
 
 @media screen and (max-width:903px) {
+
+    body #cor {
+        height:5100px;
+    } 
+
+    .interface #atrairCliente {
+        height:1970px;
+    }
+    
     .redesSociaisSobre {
         left:120px;
     }
+
+    #textoSobre {
+        width:50%;
+        top:-180px;
+        left:-300px;
+        position:relative;
+    }
 }
 
-@media screen and (max-width:801px) {
-    #projetos {
-        height:1040px;
-    }
-
+@media screen and (max-width:860px) {
     body #cor {
-        height:3165px;
+        height:5170px;
     } 
 
+    #textoSobre {
+        width:40%;
+        left:-350px;
+    }
+
     #sobreMim {
-        width:88%;
-        height:790px;
+        height:570px;
+    }
+}
+
+@media screen and (max-width:809px) {
+    .interface #atrairCliente {
+        height:1920px;
+    }
+
+    #atrairCliente .tituloClientePrecisa2 {
+        margin:-50px 70px 50px 70px;
     }
 
     #imgMenu {
@@ -1037,42 +1129,54 @@ footer a:hover {
     }
 }
 
+@media screen and (max-width:801px) {
+    body #cor {
+        height:5500px;
+    } 
+
+    #projetos {
+        height:1540px;
+    }
+}
+
 @media screen and (max-width:725px) {
-    #sobreMim {
-        height:810px;
-        width: 90%;
+    body #cor {
+        height:5670px;
+    } 
+
+    #email {
+        margin-top:80px;
     }
 
-    #imgSobre {
-        left:-10px;
+    .interface #atrairCliente {
+        height:2060px;
     }
 
     #textoSobre {
-        left:10px;
+        left:-390px;
     }
 
-    .redesSociaisSobre {
-        left:110px;
-    }
-
-    footer {
-        margin-top:133px;
+    #sobreMim {
+        height:570px;
     }
 }
 
 @media screen and (max-width:684px) {
-    #sobreMim {
-        height:821px;
-        width: 490px;
-    }
-
-    #imgSobre {
-        left:20px;
-        width:920px;
-    }
+    body #cor {
+        height:5810px;
+    } 
 
     #textoSobre {
-        left:10px;
+        width:25%;
+        left:-480px;
+    }
+
+    #textoSobre p {
+        font-size:15px;
+    }
+
+    #sobreMim {
+        height:720px;
     }
 
     .redesSociaisSobre {
@@ -1093,42 +1197,56 @@ footer a:hover {
     }
 }
 
-@media screen and (max-width:584px) {
-    #sobreMim {
-        width: 420px;
-    }
+@media screen and (max-width:645px) {
+    body #cor {
+        height:5830px;
+    } 
 
-    #imgSobre {
-        left:-14px;
-        top:-100px;
+    #atrairCliente .tituloClientePrecisa2 {
+        margin:-50px 40px 50px 40px;
     }
 
     #textoSobre {
-        left:-10px;
-        top:-60px;
-        width:87%;
+        left:-500px;
     }
 
-    .redesSociaisSobre {
-        left:-80px;
+    #email {
+        margin-top:110px;
     }
+    footer {
+        height:240px;
+    }
+}
 
+@media screen and (max-width:584px) {
+    body #cor {
+        height:5900px;
+    } 
+
+    .interface #atrairCliente {
+        height:2120px;
+    }
     #areaInicial h2 {
         padding:2px 0px;
         width:276px;
     }
 }
 
-
-
 @media screen and (max-width:536px) {
-    #projetos {
-        height:1420px;
+    body #cor {
+        height:6755px;
+    } 
+
+    .interface #atrairCliente {
+        height:2220px;
     }
 
-    body #cor {
-        position:relative;
-        height:3640px;
+    #textoSobre {
+        left:-530px;
+    }
+
+    #projetos {
+        height:2220px;
     }
 
     #habilidades {
@@ -1155,7 +1273,7 @@ footer a:hover {
     }
 }
 
-@media screen and (max-width:495px) {
+@media screen and (max-width:500px) {
 
     body {
         background:  #00294d url(fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner-celular.jpg);
@@ -1168,31 +1286,39 @@ footer a:hover {
         width:90%;
     }
 
-    #sobreMim {
-        width: 110%;
-        margin:-5%;
-        height: 900px;
+    #atrairCliente .clientePrecisaH3 h3 {
+        width:80%;
+        margin:100px auto 0;
+        font-size:32px;
     }
 
-    #sobreMim button {
-        top:224px;
-        left:45px;
+    .interface #atrairCliente {
+        height:2110px;
+    }
+
+    #atrairCliente .tituloClientePrecisa2 h3 {
+        width:100%;
+        font-size:32px;
+    }
+
+    #sobreMim {
+        width:490px;
     }
 
     #sobreMim h2 {
-        font-size:21pt;
+        font-size:25pt;
     }
 
-    #imgSobre {
-        left:-52px;
-        top:-120px;
-        width:270%;
+    .redesSociaisSobre .redesSociais {
+        position:relative;
+        top:182px;
+        left:220px;
+        padding-left:6px;
     }
 
     #textoSobre {
-        left:-10px;
-        top:-60px;
-        width:87%;
+        left:30px;
+        width:85%;
     }
 
     .redesSociaisSobre .redesSociais {
@@ -1201,7 +1327,7 @@ footer a:hover {
     }
 
     .redesSociaisSobre {
-        left:-90px;
+        margin-right: 1000px;
     }
 
     #projetos {
