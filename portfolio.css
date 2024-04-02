@@ -118,7 +118,8 @@ header h1 {
     color:#0275d8;
     padding:2px 9px ;
     font-family:monospace;
-    
+    display: block;
+    text-align: center;
     /* animation: typing 4s steps(22), blink 3.6s steps(50) infinite;
     white-space:nowrap;
     overflow:hidden;
@@ -791,7 +792,7 @@ footer a:hover {
     top:7px;
 }
 
-.esconder {
+/* .esconder {
     opacity:0;
     transition:all 1.8s;
     filter: blur(10px);
@@ -803,7 +804,7 @@ footer a:hover {
     transition:all 1.8s;
     filter: blur(0);
     transform:translateX(0);
-}
+} */
 
 ::-webkit-scrollbar {
     width:10px;
