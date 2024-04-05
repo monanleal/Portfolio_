@@ -1318,6 +1318,7 @@ footer a:hover {
 
     #sobreMim button {
         top:230px;
+        left:15px;
     }
 
     #sobreMim h2 {
@@ -1339,10 +1340,6 @@ footer a:hover {
 
     #textoSobre h3 {
         left:-18px;
-    }
-
-    #textoSobre button {
-        left:14px;
     }
 
     .redesSociaisSobre .redesSociais {
