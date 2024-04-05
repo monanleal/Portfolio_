@@ -1289,8 +1289,12 @@ footer a:hover {
     }
 
     body #cor {
-        height:6555px;
+        height:6900px;
     } 
+
+    body .interface #atrairCliente {
+        height:2320px;
+    }
 
     #atrairCliente .clientePrecisaH3 h3 {
         width:80%;
@@ -1309,6 +1313,11 @@ footer a:hover {
 
     #sobreMim {
         width:490px;
+        height:855px;
+    }
+
+    #sobreMim button {
+        top:230px;
     }
 
     #sobreMim h2 {
@@ -1318,14 +1327,14 @@ footer a:hover {
     .redesSociaisSobre .redesSociais {
         position:relative;
         top:182px;
-        left:220px;
+        left:172px;
         padding-left:6px;
     }
 
     #textoSobre {
-        left:25px;
+        left:-35px;
         top:-155px;
-        width:85%;
+        width:68%;
     }
 
     #textoSobre h3 {
@@ -1359,8 +1368,12 @@ footer a:hover {
         font-size:40px;
     }
 
+    #habilidades {
+        width:70%;
+    }
+
     #habilidades h2 {
-        left:48px;
+        left:27px;
         font-family: "Space Grotesk", sans-serif;
         font-weight: 500;
     }
@@ -1372,6 +1385,7 @@ footer a:hover {
     .redesSociaisRodape .redesSociais {
         width:36px;
         height:36px;
+        left:-165px;
     }
 
     .direitosAutorais {
