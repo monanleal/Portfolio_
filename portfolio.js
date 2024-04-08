@@ -6,6 +6,18 @@ function clickMenu() {
     }
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+    new TypeIt(".subtituloH2", {
+        speed: 130,
+        loop: true
+    })
+    .type("Desenvolvedor Front-End", { delay: 800})
+    .delete(23)
+    .type("Especialista em criação de site para empresas", { delay:6000})
+    
+    .go()
+})
+
 // const myObserver = new IntersectionObserver ((entries) => {
 //     entries.forEach( (entry) => {
 //         if(entry.isIntersecting) {

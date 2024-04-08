@@ -129,107 +129,6 @@ header h1 {
     letter-spacing:1px;
 }
 
-.subtitulo span {
-    padding-top:14px;
-    display:inline;
-    color:#0275d8;
-    font-family:monospace;
-    font-size:18px;
-    margin-top:-1px;
-    letter-spacing:1px;
-    margin-right:300px;
-    position:relative;
-    left:528px;
-    visibility: hidden;
-}
-
-.subtitulo span::before {
-    content:"";
-    animation: subtitulo 20s infinite;
-    
-}
-
-.subtitulo span::after {
-    content:"";
-    position:absolute;
-    height:72%;
-    border-left: 2px solid #0275d8;
-    animation: cursor .8s infinite, digita 20s steps(15) infinite;
-    width:100%;
-    right:2px;
-    /* background-color:#13447b; */
-}
-
-@keyframes cursor {
-    0% {
-        /* border-left: 2px solid #13447b; */
-        opacity:1;
-    }
-}
-
-@keyframes subtitulo {
-    0%, 20% {
-        content:"Desenvolvedor Front-end";
-        /* visibility: visible; */
-    }
-
-    21%, 40% {
-        content:"Especialista em criação de site"
-    }
-
-    41%, 60% {
-        content:"Desenvolvedor Front-end"
-    }
-
-    61%, 80% {
-        content: "Especialista em criação de site"
-    }
-
-    81%, 100% {
-        content:"Desenvolvedor Front-end"
-    }
-}
-
-@keyframes digita {
-    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
-        width:0;
-    }
-        5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
-            width:100%;
-        }
-}
-
- /* #areaInicial h2::before {
-    content:"";
-    animation: subtitulo 10s infinite ;
-}
-
-@keyframes subtitulo {
-    0%, 50% {
-        content:"Desenvolvedor Front-end"
-    }
-
-    51%, 100% {
-        content: "Especialista em criação de site"
-    }
-}
-
-@keyframes typing {
-    from {
-        width:0;
-    }
-}
-
-@keyframes blink {
-    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
-        border-color:transparent; 
-        width:0;
-    }
-        5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
-            width:30px;
-        }
-} */
-
 #areaInicial button {
     padding:10px 12px;
     border:1px solid #0275d8;
@@ -1279,7 +1178,7 @@ footer a:hover {
 @media screen and (max-width:500px) {
 
     body {
-        background:  #00294d url(fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner-celular.jpg);
+        background: url(fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner-celular.jpg) #00294d;
         background-attachment:fixed;
         background-position: center;
         background-size: cover;
@@ -1287,6 +1186,11 @@ footer a:hover {
 
     #minhaFoto {
         width:90%;
+    }
+
+    .subtitulo h2{
+        font-size:18px;
+        letter-spacing: 0.7;
     }
 
     body #cor {
