@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 window.sr = ScrollReveal({ reset: true });
 
-sr.reveal('#areaInicial', {duration: 2000, distance:"90px" });
+sr.reveal('#areaInicial', {duration: 2000, distance:"140px" });
 sr.reveal('#sobreMim', {duration: 2000, delay:200, distance:"1000px", origin:'left' });
 
 sr.reveal('#habilidades', {duration: 3000 });
