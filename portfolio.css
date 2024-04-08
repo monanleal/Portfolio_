@@ -321,8 +321,8 @@ header h1 {
 
 #sobreMim h3 {
     position:relative;
-    top:212px;
-    right:-41px;
+    top:0;
+    left:45px;
     display:inline;
     font-weight:400;
     font-size:20px;
@@ -341,6 +341,7 @@ header h1 {
     margin:200px 0 0 23px;
     /* left:60px;
     top:209px;  */
+    left:40px;
 
     animation-name: botao;
     animation-duration: 0.5s;
@@ -1236,6 +1237,8 @@ footer a:hover {
 
     #sobreMim h3 {
         font-size: 16px;
+        top:212px;
+        right:-41px;
     }
 
     .redesSociaisSobre .redesSociais {
