@@ -329,7 +329,7 @@ header h1 {
 }
 
 #sobreMim button {
-    padding:10px 12px;
+    padding:10px 18px;
     border:1px solid #0275d8;
     border-radius:7px;
     background:#0275d8;
@@ -1227,11 +1227,15 @@ footer a:hover {
         left:10px; */
         top:0;
         left:0;
-        margin:187px 0 0 220px;
+        margin:187px 0 0 184px;
     }
 
     #sobreMim h2 {
         font-size:25pt;
+    }
+
+    #sobreMim h3 {
+        font-size: 16px;
     }
 
     .redesSociaisSobre .redesSociais {
