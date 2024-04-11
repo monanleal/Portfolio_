@@ -240,22 +240,20 @@ header h1 {
 
 .caixas svg {
     float:left;
-    padding-right:20px;
-    margin-top:16px;
-    color:#0275d8
-}
-
-.caixas2 svg {
-    display:flex;
-    justify-content:center;
-    align-content:center;
-    position:relative;
-    margin:0 auto;
-    padding-right:20px;
+    padding-right:21px;
+    margin-top:14px;
     color:#0275d8;
 }
 
-
+.caixas2 svg {
+    display:block;
+    /* display:flex;
+    justify-content:center;
+    align-content:center; */
+    position:relative;
+    margin:0 auto;
+    color:#0275d8;
+}
 
 .tituloClientePrecisa2 h3 {
     margin-bottom:30px;
@@ -1178,7 +1176,7 @@ footer a:hover {
 @media screen and (max-width:500px) {
 
     body {
-        background: url(fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner-celular.jpg) #00294d;
+        background-image: url(fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner-celular.jpg) #00294d;
         background-attachment:fixed;
         background-position: center;
         background-size: cover;
@@ -1220,7 +1218,7 @@ footer a:hover {
 
     #sobreMim {
         width:100%;
-        height:820px;
+        height:805px;
     }
 
     #sobreMim button {
@@ -1306,16 +1304,6 @@ footer a:hover {
     }
 
     footer {
-        margin-top:162px;
-    }
-}
-
-@media screen and (max-width:420px) {
-
-    body {
-        background: url(fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner-celular.jpg) #00294d;
-        background-attachment:fixed;
-        background-position: center;
-        background-size: cover;
+        margin-top:200px;
     }
 }

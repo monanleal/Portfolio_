@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .type("Desenvolvedor Front-End", { delay: 800})
     .delete(23)
-    .type("Especialista em criação de site para empresas", { delay:6000})
+    .type("Especialista em criação de sites para empresas", { delay:6000})
     
     .go()
 })
@@ -47,8 +47,8 @@ sr.reveal('.caixa2P1', {rotate: {x: 0, y: 90, z:0 }, duration: 1500, delay: 300,
 sr.reveal('.caixa2P2', {rotate: {x: 0, y: 90, z:0 }, duration: 1500, delay: 700, origin:'left', distance:'1000px'});
 sr.reveal('.caixa2P3', {rotate: {x: 0, y: 90, z:0 }, duration: 1500, delay: 1100, origin:'left', distance:'1000px'});
 
-sr.reveal('.projeto1', {rotate: {x: 0, y:0, z:0 }, duration: 1500, delay: 300, distance:'900px'});
-sr.reveal('.projeto2', {rotate: {x: 0, y:0, z:0 }, duration: 1500, delay: 500, distance:'900px'});
-sr.reveal('.projeto3', {rotate: {x: 0, y:0, z:0 }, duration: 1500, delay: 700, distance:'900px'});
-sr.reveal('.projeto4', {rotate: {x: 0, y:0, z:0 }, duration: 1200, delay: 400, distance:'900px'});
-sr.reveal('.projeto5', {rotate: {x: 0, y:0, z:0 }, duration: 1200, delay: 600, distance:'900px'});
+sr.reveal('.projeto1', {rotate: {x: 0, y:0, z:0 }, duration: 1500, delay: 300, distance:'200px'});
+sr.reveal('.projeto2', {rotate: {x: 0, y:0, z:0 }, duration: 1500, delay: 500, distance:'200px'});
+sr.reveal('.projeto3', {rotate: {x: 0, y:0, z:0 }, duration: 1500, delay: 700, distance:'200px'});
+sr.reveal('.projeto4', {rotate: {x: 0, y:0, z:0 }, duration: 1200, delay: 400, distance:'200px'});
+sr.reveal('.projeto5', {rotate: {x: 0, y:0, z:0 }, duration: 1200, delay: 600, distance:'200px'});
