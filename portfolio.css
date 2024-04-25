@@ -1307,3 +1307,13 @@ footer a:hover {
         margin-top:200px;
     }
 }
+
+@media screen and (max-width:420px) {
+
+    body {
+        background-image: url(fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner-celular.jpg) #00294d;
+        background-attachment:fixed;
+        background-position: left;
+        background-size: cover;
+    }
+}
