@@ -443,7 +443,7 @@ header h1 {
 
 .sitesEmWordpress {
     position:relative;
-    margin-top:90px;
+    margin:90px auto 0 auto;
 }
 
 .projetosP {
@@ -1321,6 +1321,10 @@ footer a:hover {
     #projetos h3 {
         font-family: "Space Grotesk", sans-serif;
         font-size:40px;
+    }
+
+    .sitesWP {
+        margin:50px auto 70px auto;
     }
 
     #habilidades {
