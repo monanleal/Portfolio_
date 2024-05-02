@@ -1,3 +1,19 @@
+// const projeto = document.querySelector('.sitesWP');
+
+// function crescerProjeto() {
+//     projeto.style.scale = '1.4';
+// }
+
+// function diminuirProjeto() {
+//     projeto.style.scale = '1.0';
+// }
+
+const projeto = document.querySelector('.wp1');
+
+function crescerWP1Projeto() {
+        projeto.style.scale = '1.9';
+    }
+
 function clickMenu() {
     if (menu.style.visibility == 'hidden') {
         menu.style.visibility = 'visible';
@@ -11,9 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
         speed: 130,
         loop: true
     })
-    .type("Desenvolvedor Front-End", { delay: 800})
-    .delete(23)
-    .type("Especialista em criação de sites para empresas", { delay:6000})
+    .type("Especialista em criação de sites para empresas", { delay: 3000})
+    .delete(46)
+    .type("Desenvolvedor Front-End", { delay:1000})
     
     .go()
 })
