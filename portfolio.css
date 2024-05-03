@@ -395,7 +395,7 @@ header h1 {
 
 .sitesWP h4 {
     font-size:30px;
-    margin-top:615px;
+    margin-top:600px;
 }
 
 .projetos {
@@ -1325,6 +1325,10 @@ footer a:hover {
 
     .sitesWP {
         margin:50px auto 70px auto;
+    }
+
+    .overlayWP {
+        opacity:1;
     }
 
     #habilidades {
